@@ -72,7 +72,7 @@ export const events: EventRecord[] = [
 ];
 
 export const upcomingEvents: EventRecord[] = [
-  { id: "dia-del-icc-2026", name: "Día del ICC", edition: "2026 · encuentro de comunidad", summary: "Encuentro habitual del segundo jueves de noviembre; la fecha de esta edición se registra por separado para mantener cada año configurable.", role: "Encuentro de la comunidad ICC", startDate: "2026-11-12", location: "CETYS Mexicali · por confirmar", state: "Próximo", link: "https://www.cetys.mx/programas/ingenieria-en-ciencias-computacionales/" },
+  { id: "dia-del-icc-2026", name: "Día del ICC", edition: "2026 · encuentro de comunidad", summary: "Encuentro habitual del segundo jueves de noviembre; la fecha de esta edición se registra por separado para mantener cada año configurable.", role: "Encuentro de la comunidad ICC", startDate: "2026-11-12", location: "CETYS Mexicali · por confirmar", state: "Próximo", link: "https://iccday.vercel.app/" },
   { id: "space-apps-mexicali-2026", name: "NASA Space Apps · Mexicali 2026", edition: "14 y 15 de noviembre de 2026", summary: "NASA Space Apps · Mexicali se celebrará el 14 y 15 de noviembre de 2026 en la sede local de CETYS Universidad, Campus Mexicali.", role: "Sede local: CETYS Universidad, Campus Mexicali", startDate: "2026-11-14", endDate: "2026-11-15", location: "CETYS Universidad, Campus Mexicali", state: "Próximo", link: "https://www.spaceappschallenge.org/2026/local-events/mexicali/" },
 ];
 export const allEvents = [...events, ...upcomingEvents];
