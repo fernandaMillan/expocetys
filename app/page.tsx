@@ -1,69 +1,126 @@
+import { Suspense } from "react";
 import Image from "next/image";
+import Link from "next/link";
+import { ArrowUpRight } from "lucide-react";
+import { allEvents, foxcodingWork, homeVideo, news, programStrengths, projects, siteConfig } from "./content";
+import { EventPresentation, EventRegistration, formatEventDateRange } from "./event-status";
+import { ProjectCover, VideoPlayer } from "./interactions";
 
-export default function Home() {
+const featureLinks = [
+  ["01 / La carrera", "Ser ICC", "/ser-icc"],
+  ["02 / Lo que hacemos", "Proyectos", "/proyectos"],
+  ["03 / Aprender en equipo", "FoxCoding", "/foxcoding"],
+  ["04 / Somos sede", "Eventos", "/eventos"],
+  ["05 / Lo que nos mueve", "Logros", "/logros"],
+  ["06 / Después de ICC", "Egresados", "/egresados"],
+  ["07 / Mira y escucha", "Multimedia", "/multimedia"],
+  ["08 / Historias", "Noticias", "/noticias"],
+  ["09 / Estamos cerca", "Contacto", "/contacto"],
+];
+
+export default function HomePage() {
+  const featuredNews = news.slice(0, 6);
+
   return (
-    <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex flex-1 w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert h-5 w-[100px]"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the{" "}
-            <code className="rounded bg-black/[.06] px-1.5 py-0.5 font-mono text-[0.9em] dark:bg-white/[.08]">
-              page.tsx
-            </code>{" "}
-            file.
+    <main>
+      <section className="hero">
+        <div className="hero-copy">
+          <p className="eyebrow">Ingeniería en Ciencias Computacionales · Mexicali</p>
+          <h1 className="display">
+            <span>Tu próxima</span>
+            <span>gran idea</span>
+            <span>empieza aquí.</span>
           </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
+          <p>
+            Descubre Ingeniería en Ciencias Computacionales en CETYS Mexicali: una
+            comunidad donde la curiosidad se convierte en proyectos y la tecnología
+            en soluciones.
           </p>
+          <div className="actions">
+            <Link className="button" href="/ser-icc">
+              Descubre qué es ser ICC <ArrowUpRight size={17} aria-hidden="true" />
+            </Link>
+            <Link className="button secondary" href="/proyectos">Explora proyectos</Link>
+          </div>
         </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert h-[14px] w-4"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={14}
-            />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
+        <div className="hero-art hero-video"><VideoPlayer video={homeVideo} aspectRatio="9 / 16" /></div>
+      </section>
+      <section className="section">
+        <div className="section-head">
+          <div>
+            <p className="eyebrow">Un vistazo a la comunidad</p>
+            <h2 className="display">Encuentra tu lugar en la tecnología.</h2>
+          </div>
+          <p>Desde tu primera idea hasta compartirla con el mundo: conoce las experiencias que forman parte de ICC.</p>
         </div>
-      </main>
-    </div>
+        <div className="feature-grid">
+          {featureLinks.map(([label, title, href]) => (
+            <Link className="feature-tile" href={href} key={href}>
+              <small>{label}</small><strong>{title}</strong>
+              <span className="tile-arrow" aria-hidden="true">↗</span>
+            </Link>
+          ))}
+        </div>
+      </section>
+      <section className="section paper-band">
+        <div className="section-head">
+          <div>
+            <p className="eyebrow">De una pregunta a una solución</p>
+            <h2 className="display">Proyectos con propósito.</h2>
+          </div>
+          <Link className="link-arrow" href="/proyectos">Ver todos los proyectos <ArrowUpRight size={17} aria-hidden="true" /></Link>
+        </div>
+        <div className="story-grid">
+          {foxcodingWork.map((work) => (
+            <article className="story-card" key={work.title}>
+              <div className="project-cover project-cover-game"><span className="project-cover-name">{work.title}</span><strong>Colaboración de FoxCoding</strong><p>El alcance específico de las actividades está pendiente de confirmar.</p></div>
+              <div className="story-body"><span className="tag">{work.category}</span><h3>{work.title}</h3><p>{work.scopeNote}</p><a className="button yellow" href={work.organizationUrl} target="_blank" rel="noreferrer">Conocer la organización <ArrowUpRight size={17} aria-hidden="true" /></a></div>
+            </article>
+          ))}
+          {projects.filter((project) => project.featured).map((project) => (
+            <article className="story-card" key={project.id}>
+              <ProjectCover project={project} />
+              <div className="story-body">
+                <span className="tag">{project.event ?? project.area}</span><h3>{project.name}</h3><p>{project.description}</p><p><strong>Problema que atiende:</strong> {project.problem}</p>
+                <Link className="link-arrow" href={`/proyectos/${project.slug}`}>Conoce el proyecto <ArrowUpRight size={16} aria-hidden="true" /></Link>
+              </div>
+            </article>
+          ))}
+        </div>
+      </section>
+      <section className="section upcoming-section">
+        <div className="section-head"><div><p className="eyebrow">Próximos encuentros</p><h2 className="display">La comunidad se encuentra.</h2></div><Link className="link-arrow" href="/eventos">Todos los eventos <ArrowUpRight size={17} aria-hidden="true" /></Link></div>
+        <div className="upcoming-grid">{allEvents.filter((event) => ["dia-del-icc-2026", "space-apps-mexicali-2026"].includes(event.id)).map((event) => <article className="upcoming-item" key={event.id}><h3>{event.name}</h3><Suspense fallback={<><span className="event-state">{event.state}</span><p>{event.summary}</p></>}><EventPresentation event={event} includeSummary /></Suspense>{event.startDate && <p className="quiet-note">{formatEventDateRange(event)} · {event.location}</p>}<div className="actions"><Link className="link-arrow" href={`/eventos/${event.id}`}>Información <ArrowUpRight size={16} aria-hidden="true" /></Link>{event.link && <a className="link-arrow" href={event.link} target="_blank" rel="noreferrer">Información oficial <ArrowUpRight size={16} aria-hidden="true" /></a>}<Suspense fallback={null}><EventRegistration event={event} /></Suspense></div></article>)}</div>
+      </section>
+      <section className="section paper-band home-strengths">
+        <div className="section-head"><div><p className="eyebrow">Dentro y fuera del aula</p><h2 className="display">Una formación que también se vive.</h2></div><Link className="link-arrow" href="/ser-icc">Conoce Ser ICC <ArrowUpRight size={17} aria-hidden="true" /></Link></div>
+        <div className="strength-preview">{programStrengths.slice(0, 3).map((item) => <article key={item.title}><h3>{item.title}</h3><p>{item.text}</p></article>)}</div>
+      </section>
+      <section className="section">
+        <div className="section-head">
+          <div><p className="eyebrow">Voces de nuestra comunidad</p><h2 className="display">ICC en VoCETYS.</h2></div>
+          <Link className="link-arrow" href="/noticias">Ver todas las noticias <ArrowUpRight size={17} aria-hidden="true" /></Link>
+        </div>
+        <div className="story-grid">
+          {featuredNews.map((item) => (
+            <article className="story-card" key={item.id}>
+              {item.image ? <div className="story-image"><Image src={item.image} alt={`Imagen destacada de ${item.title}`} fill sizes="(max-width: 650px) 100vw, 33vw" /></div> : <div className="story-image news-cover-fallback"><span>{item.category}</span><strong>{item.title}</strong></div>}
+              <div className="story-body">
+                <span className="tag">{item.category} · {item.campusLabel}</span><h3>{item.title}</h3><p>{item.summary}</p>
+                <p className="news-source">Fuente: VOCETYS</p><a className="link-arrow" href={item.source} target="_blank" rel="noreferrer">Leer nota completa <ArrowUpRight size={16} aria-hidden="true" /></a>
+              </div>
+            </article>
+          ))}
+        </div>
+      </section>
+      <section className="section paper-band">
+        <div className="section-head">
+          <div><p className="eyebrow">Una carrera se conoce viviéndola</p><h2 className="display">¿Nos vemos en ExpoCETYS?</h2></div>
+          <Link className="button yellow" href="/contacto">Habla con ICC <ArrowUpRight size={17} aria-hidden="true" /></Link>
+        </div>
+        <p>{siteConfig.expoBanner.text}. Ven a conocer las carreras, actividades y espacios del campus.</p>
+        <a className="link-arrow" href={siteConfig.expoBanner.href} target="_blank" rel="noreferrer">Información de ExpoCETYS Mexicali <ArrowUpRight size={17} aria-hidden="true" /></a>
+      </section>
+    </main>
   );
 }

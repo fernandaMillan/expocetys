@@ -1,0 +1,411 @@
+{
+  "schemaVersion": 1,
+  "updatedAt": "2026-10-28T02:24:01.028Z",
+  "articles": [
+    {
+      "id": "hackfox-2026",
+      "title": "HackFox 2026 impulsa la innovación y el talento tecnológico para transformar la movilidad en Baja California",
+      "source": "https://www.cetys.mx/noticias/hackfox-2026-impulsa-la-innovacion-y-el-talento-tecnologico-para-transformar-la-movilidad-en-baja-california/",
+      "canonicalUrl": "https://www.cetys.mx/noticias/hackfox-2026-impulsa-la-innovacion-y-el-talento-tecnologico-para-transformar-la-movilidad-en-baja-california/",
+      "publishedAt": "2026-07-27",
+      "summary": "CETYS coorganizó HackFox en Tijuana; un equipo de Campus Mexicali obtuvo el Gran Premio con ViaLibre, una plataforma que combina aplicación móvil y hardware para informar sobre transporte.",
+      "category": "Logros",
+      "campusLabel": "Mexicali en sede externa",
+      "image": "https://www.cetys.mx/noticias/wp-content/uploads/2026/07/HF.png",
+      "metadataStatus": "pending",
+      "metadataPending": [
+        "No se pudieron verificar los metadatos de la fuente."
+      ],
+      "metadataNote": "Los metadatos locales se conservaron; falta verificar la fuente.",
+      "syncError": "Error: REST API failed (SyntaxError: Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON); HTML returned no article metadata",
+      "lastCheckedAt": "2026-10-28T02:24:01.015Z"
+    },
+    {
+      "id": "hackhexa-2026",
+      "title": "HackHexa 2026 fortalece el interés de jóvenes por las ingenierías y áreas STEM",
+      "source": "https://www.cetys.mx/noticias/hackhexa-2026-fortalece-el-interes-de-jovenes-por-las-ingenierias-y-areas-stem/",
+      "canonicalUrl": "https://www.cetys.mx/noticias/hackhexa-2026-fortalece-el-interes-de-jovenes-por-las-ingenierias-y-areas-stem/",
+      "publishedAt": "2026-07-27",
+      "summary": "La segunda edición de HackHexa, impulsada por ICC Mexicali, acercó a jóvenes a las ingenierías mediante retos, mentorías y actividades prácticas, con apoyo piloto de MLH.",
+      "category": "Eventos",
+      "campusLabel": "Mexicali",
+      "image": "https://www.cetys.mx/noticias/wp-content/uploads/2026/07/HH4.jpg",
+      "metadataStatus": "pending",
+      "metadataPending": [
+        "No se pudieron verificar los metadatos de la fuente."
+      ],
+      "metadataNote": "Los metadatos locales se conservaron; falta verificar la fuente.",
+      "syncError": "Error: REST API failed (SyntaxError: Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON); HTML returned no article metadata",
+      "lastCheckedAt": "2026-10-28T02:24:01.015Z"
+    },
+    {
+      "id": "datathon-tec-2026",
+      "title": "Estudiantes CETYS fortalecen habilidades en análisis de datos durante Datathon en el Tecnológico de Monterrey",
+      "source": "https://www.cetys.mx/noticias/estudiantes-cetys-fortalecen-habilidades-en-analisis-de-datos-durante-datathon-en-el-tecnologico-de-monterrey/",
+      "canonicalUrl": "https://www.cetys.mx/noticias/estudiantes-cetys-fortalecen-habilidades-en-analisis-de-datos-durante-datathon-en-el-tecnologico-de-monterrey/",
+      "publishedAt": "2026-05-11",
+      "summary": "Cuatro equipos de ICC y uno de LINI Mexicali participaron en un Datathon de 24 horas en Monterrey, trabajando con análisis de datos, modelos y comunicación de resultados.",
+      "category": "Comunidad",
+      "campusLabel": "Mexicali en sede externa",
+      "image": "https://www.cetys.mx/noticias/wp-content/uploads/2026/05/tec3.jpg",
+      "metadataStatus": "pending",
+      "metadataPending": [
+        "No se pudieron verificar los metadatos de la fuente."
+      ],
+      "metadataNote": "Los metadatos locales se conservaron; falta verificar la fuente.",
+      "syncError": "Error: REST API failed (SyntaxError: Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON); HTML returned no article metadata",
+      "lastCheckedAt": "2026-10-28T02:24:01.015Z"
+    },
+    {
+      "id": "criptografia-cuantica",
+      "title": "CETYS impulsa el aprendizaje en tecnologías emergentes con conferencia sobre criptografía cuántica",
+      "source": "https://www.cetys.mx/noticias/cetys-impulsa-el-aprendizaje-en-tecnologias-emergentes-con-conferencia-sobre-criptografia-cuantica/",
+      "canonicalUrl": "https://www.cetys.mx/noticias/cetys-impulsa-el-aprendizaje-en-tecnologias-emergentes-con-conferencia-sobre-criptografia-cuantica/",
+      "publishedAt": "2026-04-06",
+      "summary": "El egresado Miguel Díaz Hernández explicó conceptos de computación cuántica y distribución de llaves BB84 a estudiantes de ICC de distintos campus.",
+      "category": "Investigación",
+      "campusLabel": "Multicampus con participación de Mexicali",
+      "image": "https://www.cetys.mx/noticias/wp-content/uploads/2026/04/3-1.jpeg",
+      "metadataStatus": "pending",
+      "metadataPending": [
+        "No se pudieron verificar los metadatos de la fuente."
+      ],
+      "metadataNote": "Los metadatos locales se conservaron; falta verificar la fuente.",
+      "syncError": "Error: REST API failed (SyntaxError: Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON); HTML returned no article metadata",
+      "lastCheckedAt": "2026-10-28T02:24:01.015Z"
+    },
+    {
+      "id": "hackmty-2025",
+      "title": "Estudiantes de Ingeniería en Ciencias Computacionales de CETYS ganan primer lugar en HackMTY 2025",
+      "source": "https://www.cetys.mx/noticias/estudiantes-de-ingenieria-en-ciencias-computacionales-de-cetys-ganan-primer-lugar-en-hackmty-2025/",
+      "canonicalUrl": "https://www.cetys.mx/noticias/estudiantes-de-ingenieria-en-ciencias-computacionales-de-cetys-ganan-primer-lugar-en-hackmty-2025/",
+      "publishedAt": "2025-11-10",
+      "summary": "Un equipo de ICC Mexicali ganó el reto Banorte Open Innovation en HackMTY, en Monterrey; un segundo equipo de CETYS también participó en la competencia.",
+      "category": "Logros",
+      "campusLabel": "Mexicali en sede externa",
+      "image": "https://www.cetys.mx/noticias/wp-content/uploads/2025/11/HACKMTY1.jpg",
+      "metadataStatus": "pending",
+      "metadataPending": [
+        "No se pudieron verificar los metadatos de la fuente."
+      ],
+      "metadataNote": "Los metadatos locales se conservaron; falta verificar la fuente.",
+      "syncError": "Error: REST API failed (SyntaxError: Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON); HTML returned no article metadata",
+      "lastCheckedAt": "2026-10-28T02:24:01.015Z"
+    },
+    {
+      "id": "changemakers-2025",
+      "title": "Estudiantes de CETYS Mexicali finalistas en el Changemakers Social Challenge 2025",
+      "source": "https://www.cetys.mx/noticias/estudiantes-de-cetys-mexicali-finalistas-en-el-changemakers-social-challenge-2025/",
+      "canonicalUrl": "https://www.cetys.mx/noticias/estudiantes-de-cetys-mexicali-finalistas-en-el-changemakers-social-challenge-2025/",
+      "publishedAt": "2025-11-03",
+      "summary": "Un equipo de ICC y Mecatrónica Mexicali fue finalista de FemCoding en Tijuana con una propuesta de seguridad y bienestar para mujeres en grandes eventos.",
+      "category": "Impacto social",
+      "campusLabel": "Mexicali en sede externa",
+      "image": "https://www.cetys.mx/noticias/wp-content/uploads/2025/11/CM4.jpg",
+      "metadataStatus": "pending",
+      "metadataPending": [
+        "No se pudieron verificar los metadatos de la fuente."
+      ],
+      "metadataNote": "Los metadatos locales se conservaron; falta verificar la fuente.",
+      "syncError": "Error: REST API failed (SyntaxError: Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON); HTML returned no article metadata",
+      "lastCheckedAt": "2026-10-28T02:24:01.015Z"
+    },
+    {
+      "id": "nasa-space-apps-2025",
+      "title": "Talento CETYS destaca en el NASA Space Apps Challenge 2025",
+      "source": "https://www.cetys.mx/noticias/talento-cetys-destaca-en-el-nasa-space-apps-challenge-2025/",
+      "canonicalUrl": "https://www.cetys.mx/noticias/talento-cetys-destaca-en-el-nasa-space-apps-challenge-2025/",
+      "publishedAt": "2025-10-09",
+      "summary": "La sede Mexicali del reto global reunió equipos de CETYS y otras instituciones; propuestas de Ingeniería y Preparatoria obtuvieron primeros lugares locales.",
+      "category": "Logros",
+      "campusLabel": "Mexicali",
+      "image": "https://www.cetys.mx/noticias/wp-content/uploads/2025/10/nasa.jpg",
+      "metadataStatus": "pending",
+      "metadataPending": [
+        "No se pudieron verificar los metadatos de la fuente."
+      ],
+      "metadataNote": "Los metadatos locales se conservaron; falta verificar la fuente.",
+      "syncError": "Error: REST API failed (SyntaxError: Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON); HTML returned no article metadata",
+      "lastCheckedAt": "2026-10-28T02:24:01.015Z"
+    },
+    {
+      "id": "game-developer",
+      "title": "Viven la experiencia de un Game Developer durante la jornada Conectando Saberes",
+      "source": "https://www.cetys.mx/noticias/estudiantes-icc-viven-la-experiencia-de-un-game-developer-durante-la-jornada-conectando-saberes/",
+      "canonicalUrl": "https://www.cetys.mx/noticias/estudiantes-icc-viven-la-experiencia-de-un-game-developer-durante-la-jornada-conectando-saberes/",
+      "publishedAt": "2025-09-23",
+      "summary": "El desarrollador Juan Pablo Méndez compartió con estudiantes de ICC su trayectoria en videojuegos, metodologías de diseño y aprendizajes de proyectos profesionales e independientes.",
+      "category": "Industria",
+      "campusLabel": "Mexicali",
+      "image": "https://www.cetys.mx/noticias/wp-content/uploads/2025/09/ICC6.jpg",
+      "metadataStatus": "pending",
+      "metadataPending": [
+        "No se pudieron verificar los metadatos de la fuente."
+      ],
+      "metadataNote": "Los metadatos locales se conservaron; falta verificar la fuente.",
+      "syncError": "Error: REST API failed (SyntaxError: Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON); HTML returned no article metadata",
+      "lastCheckedAt": "2026-10-28T02:24:01.015Z"
+    },
+    {
+      "id": "videojuegos-ninez",
+      "title": "Estudiantes de Ingeniería en Ciencias Computacionales acercan el mundo de los videojuegos a la niñez",
+      "source": "https://www.cetys.mx/noticias/estudiantes-de-ingenieria-en-ciencias-computacionales-acercan-el-mundo-de-los-videojuegos-a-la-ninez/",
+      "canonicalUrl": "https://www.cetys.mx/noticias/estudiantes-de-ingenieria-en-ciencias-computacionales-acercan-el-mundo-de-los-videojuegos-a-la-ninez/",
+      "publishedAt": "2025-09-23",
+      "summary": "Estudiantes de ICC Mexicali impartieron en el Museo UABC un taller para niñas y niños, con actividades introductorias en Scratch, GDevelop y Godot.",
+      "category": "Impacto social",
+      "campusLabel": "Mexicali en sede externa",
+      "image": "https://www.cetys.mx/noticias/wp-content/uploads/2025/09/ICC1.jpg",
+      "metadataStatus": "pending",
+      "metadataPending": [
+        "No se pudieron verificar los metadatos de la fuente."
+      ],
+      "metadataNote": "Los metadatos locales se conservaron; falta verificar la fuente.",
+      "syncError": "Error: REST API failed (SyntaxError: Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON); HTML returned no article metadata",
+      "lastCheckedAt": "2026-10-28T02:24:01.015Z"
+    },
+    {
+      "id": "wro-panama",
+      "title": "Alumnos de CETYS viajan a Panamá para presentar su proyecto en el Open Championship de WRO",
+      "source": "https://www.cetys.mx/noticias/alumnos-de-cetys-viajan-a-panama-para-presentar-su-proyecto-en-el-open-championship-de-wro/",
+      "canonicalUrl": "https://www.cetys.mx/noticias/alumnos-de-cetys-viajan-a-panama-para-presentar-su-proyecto-en-el-open-championship-de-wro/",
+      "publishedAt": "2025-09-17",
+      "summary": "El proyecto Solarith, un robot modular para limpiar paneles solares, quedó entre los seis mejores a nivel nacional y fue seleccionado para el Open Championship de WRO en Panamá.",
+      "category": "Logros",
+      "campusLabel": "Mexicali en sede externa",
+      "image": "https://www.cetys.mx/noticias/wp-content/uploads/2025/09/DSC_0002.jpg",
+      "metadataStatus": "pending",
+      "metadataPending": [
+        "No se pudieron verificar los metadatos de la fuente."
+      ],
+      "metadataNote": "Los metadatos locales se conservaron; falta verificar la fuente.",
+      "syncError": "Error: REST API failed (SyntaxError: Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON); HTML returned no article metadata",
+      "lastCheckedAt": "2026-10-28T02:24:01.015Z"
+    },
+    {
+      "id": "hack4her-2025",
+      "title": "CETYS participa en Hack4Her 2025, hackathon nacional impulsado por el Tecnológico de Monterrey",
+      "source": "https://www.cetys.mx/noticias/talento-femenino-cetys-participa-en-hack4her-2025-hackathon-nacional-impulsado-por-el-tecnologico-de-monterrey/",
+      "canonicalUrl": "https://www.cetys.mx/noticias/talento-femenino-cetys-participa-en-hack4her-2025-hackathon-nacional-impulsado-por-el-tecnologico-de-monterrey/",
+      "publishedAt": "2025-07-23",
+      "summary": "Dos estudiantes de ICC Mexicali y una de Mecatrónica representaron a CETYS en Hack4Her, donde colaboraron en retos de tecnología con impacto social.",
+      "category": "Comunidad",
+      "campusLabel": "Mexicali en sede externa",
+      "image": "https://www.cetys.mx/noticias/wp-content/uploads/2025/07/hack4her1.jpg",
+      "metadataStatus": "pending",
+      "metadataPending": [
+        "No se pudieron verificar los metadatos de la fuente."
+      ],
+      "metadataNote": "Los metadatos locales se conservaron; falta verificar la fuente.",
+      "syncError": "Error: REST API failed (SyntaxError: Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON); HTML returned no article metadata",
+      "lastCheckedAt": "2026-10-28T02:24:01.015Z"
+    },
+    {
+      "id": "google-io-2025",
+      "title": "Estudiante de CETYS Mexicali asiste a Google I/O 2025 en Silicon Valley de parte de Women Techmakers",
+      "source": "https://www.cetys.mx/noticias/estudiante-de-cetys-mexicali-asiste-a-google-i-o-2025-en-silicon-valley-de-parte-de-women-techmakers/",
+      "canonicalUrl": "https://www.cetys.mx/noticias/estudiante-de-cetys-mexicali-asiste-a-google-i-o-2025-en-silicon-valley-de-parte-de-women-techmakers/",
+      "publishedAt": "2025-06-16",
+      "summary": "Brissa Ayala, estudiante de ICC Mexicali y participante de Women Techmakers, fue invitada a Google I/O en Silicon Valley y conoció novedades de la industria tecnológica.",
+      "category": "Comunidad",
+      "campusLabel": "Mexicali en sede externa",
+      "image": "https://www.cetys.mx/noticias/wp-content/uploads/2025/06/brissa1.jpg",
+      "metadataStatus": "verified",
+      "metadataPending": [],
+      "sourceTags": [
+        "Campus Mexicali",
+        "Ingeniería",
+        "Portada",
+        "Profesional",
+        "VoCETYS",
+        "campusmexicali",
+        "cienciascomputacionales"
+      ],
+      "metadataNote": "",
+      "lastCheckedAt": "2026-10-28T02:24:01.015Z",
+      "syncError": "Error: REST API failed (SyntaxError: Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON); HTML returned no article metadata"
+    },
+    {
+      "id": "cicese-2025",
+      "title": "Estudiantes de CETYS exploran el futuro de la ciencia computacional en visita académica al CICESE Ensenada",
+      "source": "https://www.cetys.mx/noticias/estudiantes-de-cetys-exploran-el-futuro-de-la-ciencia-computacional-en-visita-academica-al-cicese-ensenada/",
+      "canonicalUrl": "https://www.cetys.mx/noticias/estudiantes-de-cetys-exploran-el-futuro-de-la-ciencia-computacional-en-visita-academica-al-cicese-ensenada/",
+      "publishedAt": "2025-06-05",
+      "summary": "Un grupo de ICC Mexicali visitó CICESE en Ensenada para conocer proyectos de investigación en sistemas inteligentes, visión por computadora, ciencia de datos, robótica y otras áreas.",
+      "category": "Investigación",
+      "campusLabel": "Mexicali en sede externa",
+      "image": "https://www.cetys.mx/noticias/wp-content/uploads/2025/06/icc.jpg",
+      "metadataStatus": "verified",
+      "metadataPending": [],
+      "sourceTags": [
+        "Campus Mexicali",
+        "Ingeniería",
+        "Profesional",
+        "VoCETYS",
+        "campusmexicali",
+        "cienciascomputacionales"
+      ],
+      "metadataNote": "",
+      "lastCheckedAt": "2026-10-28T02:24:01.015Z",
+      "syncError": "Error: REST API failed (SyntaxError: Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON); HTML returned no article metadata"
+    },
+    {
+      "id": "egresados-conectando-saberes",
+      "title": "Egresados de Ciencias Computacionales CETYS inspiran con su experiencia global durante panel Conectando Saberes",
+      "source": "https://www.cetys.mx/noticias/egresados-de-ciencias-computacionales-cetys-inspiran-con-su-experiencia-global-durante-panel-conectando-saberes/",
+      "canonicalUrl": "https://www.cetys.mx/noticias/egresados-de-ciencias-computacionales-cetys-inspiran-con-su-experiencia-global-durante-panel-conectando-saberes/",
+      "publishedAt": "2025-05-28",
+      "summary": "Doce egresados compartieron en un panel virtual sus trayectorias profesionales en tecnología, ciencia y emprendimiento, con experiencias en varios países y sectores.",
+      "category": "Egresados",
+      "campusLabel": "Multicampus con participación de Mexicali",
+      "image": "https://www.cetys.mx/noticias/wp-content/uploads/2025/06/egresadosICC-5.jpg",
+      "metadataStatus": "verified",
+      "metadataPending": [],
+      "sourceTags": [
+        "Campus Mexicali",
+        "Ingeniería",
+        "Profesional",
+        "VoCETYS",
+        "campusmexicali",
+        "cienciascomputacionales"
+      ],
+      "metadataNote": "",
+      "lastCheckedAt": "2026-10-28T02:24:01.015Z",
+      "syncError": "Error: REST API failed (SyntaxError: Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON); HTML returned no article metadata"
+    },
+    {
+      "id": "capptus-salesforce",
+      "title": "Estudiantes de LINI e ICC exploran su futuro digital con Salesforce y CAPPTUS",
+      "source": "https://www.cetys.mx/noticias/estudiantes-de-lini-e-icc-exploran-su-futuro-digital-con-salesforce-y-capptus/",
+      "canonicalUrl": "https://www.cetys.mx/noticias/estudiantes-de-lini-e-icc-exploran-su-futuro-digital-con-salesforce-y-capptus/",
+      "publishedAt": "2025-05-14",
+      "summary": "Estudiantes de LINI e ICC Mexicali conocieron aplicaciones de Salesforce, análisis de datos y automatización en una jornada con CAPPTUS y ejercicios interdisciplinarios.",
+      "category": "Industria",
+      "campusLabel": "Mexicali",
+      "image": "https://www.cetys.mx/noticias/wp-content/uploads/2025/05/lini-icc.jpg",
+      "metadataStatus": "pending",
+      "metadataPending": [
+        "No se pudieron verificar los metadatos de la fuente."
+      ],
+      "metadataNote": "Los metadatos locales se conservaron; falta verificar la fuente.",
+      "syncError": "Error: REST API failed (SyntaxError: Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON); HTML returned no article metadata",
+      "lastCheckedAt": "2026-10-28T02:24:01.015Z"
+    },
+    {
+      "id": "hackhexa-2025",
+      "title": "HackHexa: Rompiendo Esquemas y Construyendo Futuro para Mujeres en STEM",
+      "source": "https://www.cetys.mx/noticias/hackhexa-rompiendo-esquemas-y-construyendo-futuro-para-mujeres-en-stem/",
+      "canonicalUrl": "https://www.cetys.mx/noticias/hackhexa-rompiendo-esquemas-y-construyendo-futuro-para-mujeres-en-stem/",
+      "publishedAt": "2025-04-24",
+      "summary": "HackHexa reunió a estudiantes de preparatoria e ingeniería en retos de lógica, recorridos por equipos tecnológicos y conversaciones con mujeres que trabajan en áreas STEM.",
+      "category": "Eventos",
+      "campusLabel": "Mexicali",
+      "image": "https://www.cetys.mx/noticias/wp-content/uploads/2025/04/MSTEAM.jpg",
+      "metadataStatus": "verified",
+      "metadataPending": [],
+      "sourceTags": [
+        "Campus Mexicali",
+        "Eventos",
+        "Ingeniería",
+        "Profesional",
+        "VoCETYS",
+        "campusmexicali",
+        "cienciascomputacionales",
+        "vocetys-2025-04-24"
+      ],
+      "metadataNote": "",
+      "lastCheckedAt": "2026-10-28T02:24:01.015Z",
+      "syncError": "Error: REST API failed (SyntaxError: Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON); HTML returned no article metadata"
+    },
+    {
+      "id": "panel-empleadores",
+      "title": "Se preparan para el mundo laboral con panel de empleadores",
+      "source": "https://www.cetys.mx/noticias/se-preparan-para-el-mundo-laboral-con-panel-de-empleadores/",
+      "canonicalUrl": "https://www.cetys.mx/noticias/se-preparan-para-el-mundo-laboral-con-panel-de-empleadores/",
+      "publishedAt": "2025-04-20",
+      "summary": "Durante Conectando Saberes ICC 2025, empleadores de distintos sectores hablaron con estudiantes sobre entrevistas, currículum y habilidades valoradas en procesos de selección.",
+      "category": "Industria",
+      "campusLabel": "Mexicali",
+      "image": "https://www.cetys.mx/noticias/wp-content/uploads/2025/05/foro-empleadores-icc.jpg",
+      "metadataStatus": "pending",
+      "metadataPending": [
+        "No se pudieron verificar los metadatos de la fuente."
+      ],
+      "metadataNote": "Los metadatos locales se conservaron; falta verificar la fuente.",
+      "syncError": "Error: REST API failed (SyntaxError: Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON); HTML returned no article metadata",
+      "lastCheckedAt": "2026-10-28T02:24:01.015Z"
+    },
+    {
+      "id": "gulfstream-salesforce",
+      "title": "Estudiantes de CETYS colaboran con Gulfstream en proyecto Salesforce y reciben certificación internacional",
+      "source": "https://www.cetys.mx/noticias/estudiantes-de-cetys-colaboran-con-gulfstream-en-proyecto-salesforce-y-reciben-certificacion-internacional/",
+      "canonicalUrl": "https://www.cetys.mx/noticias/estudiantes-de-cetys-colaboran-con-gulfstream-en-proyecto-salesforce-y-reciben-certificacion-internacional/",
+      "publishedAt": "2025-04-11",
+      "summary": "Como parte de un proyecto Capstone con Gulfstream, estudiantes de ICC aplicaron Salesforce CRM y cinco recibieron un voucher para certificarse como Salesforce Associate.",
+      "category": "Industria",
+      "campusLabel": "Mexicali",
+      "image": "https://www.cetys.mx/noticias/wp-content/uploads/2025/04/CPICC1.jpg",
+      "metadataStatus": "pending",
+      "metadataPending": [
+        "No se pudieron verificar los metadatos de la fuente."
+      ],
+      "metadataNote": "Los metadatos locales se conservaron; falta verificar la fuente.",
+      "syncError": "Error: REST API failed (SyntaxError: Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON); HTML returned no article metadata",
+      "lastCheckedAt": "2026-10-28T02:24:01.015Z"
+    },
+    {
+      "id": "hackathon-2025",
+      "title": "Estudiantes de CETYS obtienen reconocimiento internacional en el Hackathon 2025",
+      "source": "https://www.cetys.mx/noticias/estudiantes-de-cetys-obtienen-reconocimiento-internacional-en-el-hackathon-2025/",
+      "canonicalUrl": "https://www.cetys.mx/noticias/estudiantes-de-cetys-obtienen-reconocimiento-internacional-en-el-hackathon-2025/",
+      "publishedAt": "2025-04-04",
+      "summary": "Equipos de Fox Coding ICC Mexicali obtuvieron tercer lugar global, fueron finalistas y recibieron una distinción Best of the Rest en el Climate Change-Makers Challenge.",
+      "category": "Logros",
+      "campusLabel": "Mexicali en sede externa",
+      "image": "https://www.cetys.mx/noticias/wp-content/uploads/2025/04/3erLugarHackathon.jpg",
+      "metadataStatus": "pending",
+      "metadataPending": [
+        "No se pudieron verificar los metadatos de la fuente."
+      ],
+      "metadataNote": "Los metadatos locales se conservaron; falta verificar la fuente.",
+      "syncError": "Error: REST API failed (SyntaxError: Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON); HTML returned no article metadata",
+      "lastCheckedAt": "2026-10-28T02:24:01.015Z"
+    },
+    {
+      "id": "trimble-charla",
+      "title": "Trimble Mexicali ofrece charla acerca del mundo profesional a estudiantes de Ingeniería",
+      "source": "https://www.cetys.mx/noticias/trimble-mexicali-ofrece-charla-acercan-del-mundo-profesional-a-estudiantes-de-ingenieria/",
+      "canonicalUrl": "https://www.cetys.mx/noticias/trimble-mexicali-ofrece-charla-acercan-del-mundo-profesional-a-estudiantes-de-ingenieria/",
+      "publishedAt": "2025-03-01",
+      "summary": "Especialistas de Trimble conversaron con estudiantes de ICC sobre el perfil de Software Developer Engineer in Test y las oportunidades profesionales en tecnología.",
+      "category": "Industria",
+      "campusLabel": "Mexicali",
+      "image": "https://www.cetys.mx/noticias/wp-content/uploads/2025/04/trimble.jpg",
+      "metadataStatus": "pending",
+      "metadataPending": [
+        "No se pudieron verificar los metadatos de la fuente."
+      ],
+      "metadataNote": "Los metadatos locales se conservaron; falta verificar la fuente.",
+      "syncError": "Error: REST API failed (SyntaxError: Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON); HTML returned no article metadata",
+      "lastCheckedAt": "2026-10-28T02:24:01.015Z"
+    },
+    {
+      "id": "huawei-seeds-2024",
+      "title": "Estudiante y egresados de ingeniería en CETYS participan en programa de Huawei Seeds for the Future 2024",
+      "source": "https://www.cetys.mx/noticias/estudiante-y-egresados-de-ingenieria-en-cetys-participan-en-programa-de-huawei-seeds-for-the-future-2024/",
+      "canonicalUrl": "https://www.cetys.mx/noticias/estudiante-y-egresados-de-ingenieria-en-cetys-participan-en-programa-de-huawei-seeds-for-the-future-2024/",
+      "publishedAt": "2024-08-20",
+      "summary": "Una estudiante y dos egresados de CETYS, incluidos participantes de Mexicali y Tijuana, cursaron Seeds for the Future; dos avanzaron a la siguiente etapa del programa.",
+      "category": "Comunidad",
+      "campusLabel": "Multicampus con participación de Mexicali",
+      "image": "https://www.cetys.mx/noticias/wp-content/uploads/2024/08/alumnos-cetys-seeds-for-the-future.jpg",
+      "metadataStatus": "pending",
+      "metadataPending": [
+        "No se pudieron verificar los metadatos de la fuente."
+      ],
+      "metadataNote": "Los metadatos locales se conservaron; falta verificar la fuente.",
+      "syncError": "Error: REST API failed (SyntaxError: Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON); HTML returned no article metadata",
+      "lastCheckedAt": "2026-10-28T02:24:01.015Z"
+    }
+  ]
+}
