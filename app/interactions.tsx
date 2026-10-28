@@ -2,8 +2,9 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import { ArrowLeft, ArrowRight, ArrowUpRight, BusFront, Gamepad2, Search, Sun } from "lucide-react";
-import { useEffect, useId, useState } from "react";
+import { usePathname } from "next/navigation";
+import { ArrowLeft, ArrowRight, ArrowUpRight, BrainCircuit, BusFront, Gamepad2, Search, Sun } from "lucide-react";
+import { useEffect, useId, useRef, useState } from "react";
 import { communityVideoGroups, type CommunityVideoRecord, type NewsItem, type Project, type StudentClip, type VideoResource } from "./content";
 
 export function ProjectGallery({ projects }: { projects: Project[] }) {
@@ -30,7 +31,7 @@ export function ProjectCover({ project }: { project: Project }) {
   const videoPoster = project.video?.poster ?? (videoId ? `https://i.ytimg.com/vi/${videoId}/hqdefault.jpg` : undefined);
   if (videoPoster && project.video?.aspectRatio !== "9 / 16") return <div className="story-image project-cover-image project-video-cover" style={{ aspectRatio: "16 / 9", backgroundImage: `url("${videoPoster}")` }}><span className="tag">Video del proyecto</span><span className="play-mark" aria-hidden="true">▶</span></div>;
   if (project.screenshot) return <div className="story-image project-cover-image"><Image src={project.screenshot} alt={`Captura del producto ${project.name}`} fill sizes="(max-width: 650px) 100vw, 33vw" /></div>;
-  const CoverIcon = project.cover?.graphic === "sun" ? Sun : project.cover?.graphic === "game" ? Gamepad2 : BusFront;
+  const CoverIcon = project.cover?.graphic === "ai" ? BrainCircuit : project.cover?.graphic === "sun" ? Sun : project.cover?.graphic === "game" ? Gamepad2 : BusFront;
   return <div className={`project-cover project-cover-${project.cover?.graphic ?? "transit"}`}><span className="project-cover-name">{project.name}</span><CoverIcon size={54} strokeWidth={1.4} aria-hidden="true" /><strong>{project.type ?? project.cover?.type ?? project.area}</strong><p>{project.cover?.summary ?? project.solution}</p></div>;
 }
 
@@ -71,6 +72,39 @@ export function youtubeWatchUrl(url: string) {
   return videoId ? `https://www.youtube.com/watch?v=${videoId}` : url;
 }
 
+export function VideoRouteChangeListener() {
+  const pathname = usePathname();
+  const previousPathname = useRef(pathname);
+
+  useEffect(() => {
+    const stopPlayback = () => window.dispatchEvent(new Event("icc:video-stop"));
+    const stopBeforeInternalNavigation = (event: MouseEvent) => {
+      if (event.defaultPrevented || event.button !== 0 || event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) return;
+      const target = event.target;
+      if (!(target instanceof Element)) return;
+      const link = target.closest("a");
+      if (!link || link.hasAttribute("download") || (link.target && link.target !== "_self")) return;
+      const destination = new URL(link.href, window.location.href);
+      if (destination.origin === window.location.origin && destination.pathname !== window.location.pathname) stopPlayback();
+    };
+
+    document.addEventListener("click", stopBeforeInternalNavigation, true);
+    window.addEventListener("popstate", stopPlayback);
+    return () => {
+      document.removeEventListener("click", stopBeforeInternalNavigation, true);
+      window.removeEventListener("popstate", stopPlayback);
+    };
+  }, []);
+
+  useEffect(() => {
+    if (previousPathname.current === pathname) return;
+    previousPathname.current = pathname;
+    window.dispatchEvent(new Event("icc:video-stop"));
+  }, [pathname]);
+
+  return null;
+}
+
 export function VideoPlayer({ video, aspectRatio, autoPlayOnMount = false }: { video: VideoResource; aspectRatio?: string; autoPlayOnMount?: boolean }) {
   const [playing, setPlaying] = useState(autoPlayOnMount);
   const playerId = useId();
@@ -82,8 +116,13 @@ export function VideoPlayer({ video, aspectRatio, autoPlayOnMount = false }: { v
     const pauseOtherPlayers = (event: Event) => {
       if ((event as CustomEvent<string>).detail !== playerId) setPlaying(false);
     };
+    const stopPlayback = () => setPlaying(false);
     window.addEventListener("icc:video-play", pauseOtherPlayers);
-    return () => window.removeEventListener("icc:video-play", pauseOtherPlayers);
+    window.addEventListener("icc:video-stop", stopPlayback);
+    return () => {
+      window.removeEventListener("icc:video-play", pauseOtherPlayers);
+      window.removeEventListener("icc:video-stop", stopPlayback);
+    };
   }, [playerId]);
 
   useEffect(() => {

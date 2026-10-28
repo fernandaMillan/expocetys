@@ -177,6 +177,7 @@ input:focus-visible, select:focus-visible {
 .project-cover-transit { background: #d7e8f6; }
 .project-cover-sun { background: var(--orange); }
 .project-cover-game { background: var(--pink); }
+.project-cover-ai { background: var(--blue); }
 .project-cover-name { max-width: 100%; font-family: var(--font-display); font-size: clamp(29px, 3.2vw, 44px); line-height: 1; overflow-wrap: anywhere; text-transform: uppercase; }
 .project-cover strong { padding: 4px 7px; background: var(--ink); color: white; font-size: 11px; }
 .project-cover p { max-width: 30ch; margin: 0; font-size: 14px; font-weight: 600; }

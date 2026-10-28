@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { SiteFooter, SiteHeader } from "./site-chrome";
+import { VideoRouteChangeListener } from "./interactions";
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -23,6 +24,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
     <html lang="es-MX">
       <body>
+        <VideoRouteChangeListener />
         <SiteHeader />
         {children}
         <SiteFooter />
